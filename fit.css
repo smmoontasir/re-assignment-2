@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background: rgb(0, 0, 0);
+    font-family: Inter;
+    margin: 57px auto;
+    max-width: 72.5%;
+}
+
+/* text styles */
+.text-14 {
+    font-size: 0.9rem;
+}
+.text-14 {
+    font-size: 0.9rem;
+}
+.text-16 {
+    font-size: 1rem;
+}
+.text-18 {
+    font-size: 1.16rem;
+}
+.text-24 {
+    font-size: 1.5rem;
+}
+.text-28 {
+    font-size: 1.75rem;
+}
+.text-36 {
+    font-size: 2.25rem;
+}
+.text-40 {
+    font-size: 2.5rem;
+}
+.text-48 {
+    font-size: 3rem;
+}
+.text-78 {
+    font-size: 4.875rem;
+}
+.t-red{
+    color: rgb(230, 83, 60);
+}
+.t-white{
+    color: rgb(255, 255, 255);
+}
+.t-mid-white{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* flex styles */
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.just-between{
+    justify-content: space-between;
+}
+.just-around{
+    justify-content: space-around;
+}
+.just-center{
+    justify-content: center;
+}
+.just-evenly{
+    justify-content: space-evenly;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+/* header navbar */
+nav > ul >li{
+    list-style: none;
+    padding: 8px 20px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.red-list{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+.hamburger{
+    display: none;
+}
+
+/* banner */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+    body{
+        max-width: 90%;
+    }
+    /* flex styles */
+    .flex-s-col{
+        flex-direction: column;
+    }
+    .flex-s-row{
+        flex-direction: row;
+    }
+    /* Navbar */
+    nav > ul >li{
+       display: none;
+    }
+    .hamburger{
+        display: contents;
+    }
+    /* banner */
+
+
+    
+}
