@@ -147,19 +147,21 @@ nav > ul > li > a{
 }
 #ban-btwn-1{
     position: absolute;
-    width: 206px;
-    height: 96px;
+    /* width: 206px;
+    height: 96px; */
     left: 800px;
     top: 600px;
+    
 }
 #ban-btwn-2{
 
     position: absolute;
     left: 1107px;
     top: 360px;
-    width: 193px;
+    /* width: 193px; */
+    
 }
-
+/* banner end */
 
 
 
@@ -192,12 +194,16 @@ nav > ul > li > a{
     }
     /* banner */
     #ban-btwn-1{
-  
+    position: absolute;
+    left: 32px;
+    top: 1400.38px;
     }
     #ban-btwn-2{
-    
+    position: absolute;
+    left: 310px;
+    top: 1000px;
     }
-    
+    /* banner end */
 
     
 }
